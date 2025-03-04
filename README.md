@@ -48,3 +48,6 @@ n_avgs = 10
 decades_min = 2
 decades = 7
 ```
+
+> [!TIP]
+> Code by: [Parth Patel: ranchop](https://github.com/ranchop)
