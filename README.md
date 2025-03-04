@@ -49,5 +49,5 @@ decades_min = 2
 decades = 7
 ```
 
-> [!TIP]
+> [!NOTE]
 > Code by: [Parth Patel](https://github.com/ranchop)
