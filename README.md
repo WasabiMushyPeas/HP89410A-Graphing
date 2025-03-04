@@ -10,8 +10,7 @@ Python Libraries:
 pip install pyvisa
 ```
 
-Driver:
-You also need to install the VISA driver for your instrument. This can be found [here](https://www.ni.com/en/support/downloads/drivers/download/packaged.ni-488-2.559044.html)
+::Warning:: Driver: You also need to install the VISA driver for your instrument. This can be found [here](https://www.ni.com/en/support/downloads/drivers/download/packaged.ni-488-2.559044.html)
 
 ## 3. Code
 
@@ -27,7 +26,6 @@ look at the output of cell 2 to see if the instrument is connected. If it is not
 ```
 
 Using the output from cell 2, change the VISA address in the code to match the address of your instrument (This should be at the top of cell 5):
-
 
 ```python
 ...
