@@ -9,6 +9,13 @@ Python Libraries:
 ```bash
 pip install pyvisa
 ```
+```bash
+pip install numpy
+```
+```bash
+pip install matplotlib
+```
+
 > [!WARNING]
 > Driver: You also need to install the VISA driver for your instrument. This can be found [here](https://www.ni.com/en/support/downloads/drivers/download/packaged.ni-488-2.559044.html)
 
