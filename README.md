@@ -17,7 +17,7 @@ You also need to install the VISA driver for your instrument. This can be found 
 
 Run the Jupyter Notebook
 
-look at the output of cell 2 to see if the instrument is connected. If it is not, you may need to change the VISA address in the code. The output should look like this:
+look at the output of cell 2 to see if the instrument is connected. If it is not, a GPIB address won't be printed. The output should look like this:
 
 ```python
 ('TCPIP0::A-53230A-00107::inst0::INSTR',
