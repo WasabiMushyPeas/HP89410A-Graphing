@@ -1,7 +1,9 @@
 # Setup 
 
 ## 1. Install Python 
-This project was developed using [Anaconda](https://www.anaconda.com/download) distribution of Python (Version 3.12) 
+This project was developed using [Anaconda](https://www.anaconda.com/download) distribution of Python (Version 3.12).
+
+This project also uses Jupyter Notebooks.
 
 ## 2. Install the dependencies:
 
@@ -39,14 +41,6 @@ fftkey = "GPIB0::19::INSTR"
 rm = visa.ResourceManager()
 fft = set_fftconnect(fftkey)
 ...
-```
-
-Change the n_avgs variable to the number of averages you want to take. Change the decades_min variable to the minimum number of decades you want to sweep. Change the decades variable to the maximum number of decades you want to sweep. This is all at the top of cell 6:
-
-```python
-n_avgs = 10
-decades_min = 2
-decades = 7
 ```
 
 > [!NOTE]
