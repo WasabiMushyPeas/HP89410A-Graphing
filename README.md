@@ -50,4 +50,4 @@ decades = 7
 ```
 
 > [!NOTE]
-> Code by: [Parth Patel](https://github.com/ranchop)
+> Original Code by: [Parth Patel](https://github.com/ranchop)
