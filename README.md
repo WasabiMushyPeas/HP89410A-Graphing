@@ -25,13 +25,13 @@ pip install matplotlib
 
 Run the Jupyter Notebook
 
-look at the output of cell 2 to see if the instrument is connected. If it is not, a GPIB address won't be printed. The output should look like this:
+look at the output of the "Get Address" section to see if the instrument is connected. If it is not, a GPIB address won't be printed. The output should look like this:
 
 ```python
 ('ASRL4::INSTR', 'GPIB0::19::INSTR')
 ```
 
-Using the output from cell 2, change the VISA address in the code to match the address of your instrument (This should be at the top of cell 5):
+Using the output from the "Get Address" section, change the address in the code to match the address of your instrument (This should be under the "Initialize the spectrum analyzer"):
 
 ```python
 ...
