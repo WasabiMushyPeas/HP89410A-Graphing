@@ -1,6 +1,6 @@
 # Setup 
 
-## 1. Intall Python 
+## 1. Install Python 
 This project was developed using [Anaconda](https://www.anaconda.com/download) distribution of Python (Version 3.12) 
 
 ## 2. Install the dependencies:
