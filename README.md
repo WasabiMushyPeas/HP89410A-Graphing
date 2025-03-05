@@ -23,17 +23,17 @@ pip install matplotlib
 
 ## 3. Code
 
-[Download](https://github.com/WasabiMushyPeas/HP89410A-Graphing/archive/refs/heads/main.zip) the code and open the Jupyter Notebook.
+1) [Download](https://github.com/WasabiMushyPeas/HP89410A-Graphing/archive/refs/heads/main.zip) the code and open the Jupyter Notebook.
 
-Run the Jupyter Notebook
+2) Run the Jupyter Notebook
 
-look at the output of the "Get Address" section to see if the instrument is connected. If it is not, a GPIB address won't be printed. The output should look like this:
+3) look at the output of the "Get Address" section to see if the instrument is connected. If it is not, a GPIB address won't be printed. The output should look like this:
 
 ```python
 ('ASRL4::INSTR', 'GPIB0::19::INSTR')
 ```
 
-Using the output from the "Get Address" section, change the address in the code to match the address of your instrument (This should be under the "Initialize the spectrum analyzer"):
+4) Using the output from the "Get Address" section, change the address in the code to match the address of your instrument (This should be under the "Initialize the spectrum analyzer"):
 
 ```python
 ...
