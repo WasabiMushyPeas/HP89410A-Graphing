@@ -27,7 +27,7 @@ pip install matplotlib
 
 2) Run the Jupyter Notebook
 
-3) look at the output of the "Get Address" section to see if the instrument is connected. If it is not, a GPIB address won't be printed. The output should look like this:
+3) look at the output of the "Get Address" section to see if the instrument is connected. If it is not connected, a GPIB address will not be printed. The output should look similar to this:
 
 ```python
 ('ASRL4::INSTR', 'GPIB0::19::INSTR')
@@ -44,9 +44,6 @@ rm = visa.ResourceManager()
 fft = set_fftconnect(fftkey)
 ...
 ```
-
-> [!NOTE]
-> Original Code by: [Parth Patel](https://github.com/ranchop)
 
 
 # Usage
@@ -73,3 +70,6 @@ graphWidth = 15
 1) Run the Jupyter Notebook
 2) The Program will ask you for the names of the plots. Enter the names of the plots in the order that you want them to be displayed on the graph.
 3) The Program will save each plot to a txt file in the data folder. The naming convention is "1&(the name you entered).txt", "2&(the name you entered).txt", etc.
+
+> [!NOTE]
+> Original Code by: [Parth Patel](https://github.com/ranchop)
