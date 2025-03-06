@@ -36,13 +36,8 @@ pip install matplotlib
 4) Using the output from the "Get Address" section, change the address in the code to match the address of your instrument (This should be under the "Initialize the spectrum analyzer"):
 
 ```python
-...
 # initial setup 
 fftkey = "GPIB0::19::INSTR"
-
-rm = visa.ResourceManager()
-fft = set_fftconnect(fftkey)
-...
 ```
 
 
