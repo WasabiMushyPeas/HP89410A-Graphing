@@ -47,3 +47,29 @@ fft = set_fftconnect(fftkey)
 
 > [!NOTE]
 > Original Code by: [Parth Patel](https://github.com/ranchop)
+
+
+# Usage
+
+## Customization
+
+Change the variables in the "Variables" section to customize the graph and data. The variables are:
+
+```python
+# This determines the number of plots that will be taken (change as needed)
+plots = 3;
+# This determines the number of averages that will be taken (change as needed)
+n_avgs = 10
+# These determine the frequency range that will be plotted (change as needed)
+decades_min = 2
+decades = 7
+# These determine the size of the graph (change as needed)
+graphHeight = 10
+graphWidth = 15
+```
+
+## Running the code
+
+1) Run the Jupyter Notebook
+2) The Program will ask you for the names of the plots. Enter the names of the plots in the order that you want them to be displayed on the graph.
+3) The Program will save each plot to a txt file in the data folder. The naming convention is "1&(the name you entered).txt", "2&(the name you entered).txt", etc.
