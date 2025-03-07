@@ -60,6 +60,9 @@ graphHeight = 10
 graphWidth = 15
 ```
 
+> [!TIP]
+> Any plot name that has "Noise Floor" or "Seed" in it will have some transparency in the graph.
+
 ## Running the code
 
 1) Run the Jupyter Notebook
